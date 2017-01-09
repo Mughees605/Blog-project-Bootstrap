@@ -1,0 +1,57 @@
+ /*body*/
+    /*body{
+        background: silver;
+    }*/
+    /*styling nav bar*/
+    .navbar-header a {
+        font-size: 25px;
+    }
+     .navbar a{
+         color: white;
+     }
+     .nav li a{
+         font-size:1.3em;
+     }
+     .nav li a:hover{
+         background: orange;
+     }
+     .navbar-img{
+         position: absolute; /*navbar img ki class img navigation k oper lanay k liye karay gain*/
+         top: 0;
+         width: 100%;
+     }
+     /*styling header*/
+     header{
+         height: 450px;
+         padding: 150px 50px;
+         color: white;
+     }
+     header h1{
+         font-size: 40px;
+     }
+     /*styling posts area*/
+     #posts{
+         border-bottom: 1px solid grey;
+     }
+     #posts h1{
+         font-weight: bold;
+     }
+     #posts h1 a{
+        color: black;
+        text-decoration:none;
+     }
+     #posts h1 a:hover{
+         color:brown
+     }
+     /*stying button in posts area*/
+    #down_btn {
+        padding: 50px 0px;
+    }
+    #down_btn button{
+        border-radius: 0px;
+        font-weight: bold;
+    } 
+    #down_btn button:hover{
+        background: blue;
+        color: white;
+    }
