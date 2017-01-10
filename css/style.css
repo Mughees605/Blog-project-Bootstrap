@@ -55,3 +55,13 @@
         background: blue;
         color: white;
     }
+    /*styling footer area*/
+    .nav-bottom{
+        float:none;
+        display: table;
+        table-layout: fixed;
+        margin: 0 auto;
+    }
+    .nav-bottom li a:hover{
+     background: white;
+    }
